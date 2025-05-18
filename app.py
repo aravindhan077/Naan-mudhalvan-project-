@@ -25,4 +25,4 @@ if uploaded_file is not None:
     prediction = model.predict(image_array)
     predicted_class = np.argmax(prediction)
 
-    st.write(f"Predicted Digit: **{predicted_class}**"
+    st.write(f"Predicted Digit: **{predicted_class}**")
